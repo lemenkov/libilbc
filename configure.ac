@@ -4,7 +4,7 @@
 AC_INIT([libilbc], [1.1.1], [])
 AC_CONFIG_AUX_DIR(.)
 AC_CONFIG_MACRO_DIR([m4])
-AM_INIT_AUTOMAKE([tar-ustar dist-xz])
+AM_INIT_AUTOMAKE([tar-ustar dist-bzip2 no-dist-gzip])
 AC_CONFIG_HEADERS([config.h])
 
 # Cross compiling support
